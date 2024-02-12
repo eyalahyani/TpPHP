@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<body>
+    <form name="form1" action="article.php" method="get">
+      <div> 
+        Reference:
+        <input type="text" name="ref"><br>
+        Libelle:
+        <input type="text" name="lib"><br>
+        Choisir un fournisseur:
+        <select name="fournisseur">
+            <option>fournisseur1</option>
+            <option>fournisseur2</option>
+            <option>fournisseur3</option>
+        </select><br>
+        Choisir un point de vente:
+        <input type="checkbox" name="PV[]">Sfax
+        <input type="checkbox" name="PV[]" >Tunis
+        <input type="checkbox" name="PV[]" >Sousse<br>
+        Prix de vente:
+        <input type="text" name="prix"><br>
+        Quantite en stock:
+        <input type="text" name="qteStock"><br>
+        </div> 
+        <input type="submit" value="connexion" name="conx">
+    </form>
+</body>
+</html>
